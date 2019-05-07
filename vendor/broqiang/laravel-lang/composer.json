@@ -1,0 +1,28 @@
+{
+    "name": "broqiang/laravel-lang",
+    "description": "languages for Laravel 5",
+    "keywords": [
+        "laravel",
+        "languages",
+        "broqiang"
+    ],
+    "autoload": {
+        "psr-4": {
+            "BroQiang\\LaravelLang\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BroQiang",
+            "email": "broqiang@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BroQiang\\LaravelLang\\TranslationServiceProvider"
+            ]
+        }
+    }
+}
