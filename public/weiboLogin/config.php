@@ -1,6 +1,7 @@
 <?php
 define('WE_KEY', '786947880');
 define('WE_SEC', '11edaefb824d71bce18b6db4212d429d');
+define('CALLBACK', 'http://www.dreamer1.com/weiboLogin/callback.php');
 
 
 //function debug($val, $dump = false, $exit = true)
