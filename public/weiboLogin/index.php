@@ -5,7 +5,8 @@
  * Date: 2019/5/8
  * Time: 22:04
  */
-
+require_once 'config.php';
+require_once 'saetv2.ex.class.php';
 $isLogin = isset($_COOKIE['accesstoken']);
 ?>
 <!DOCTYPE html>
@@ -20,7 +21,13 @@ $isLogin = isset($_COOKIE['accesstoken']);
 <?php } else { ?>
     您已成功登陆微博账号；
     <a href="exit.php">退出登陆</a>
-<?php } ?>
+    <hr>
+
+<?php
+
+$o = new SaeTClientV2(WE_KEY, WE_SEC, $_COOKIE['accesstoken']);
+$o->update('这是一个测试的微博');
+} ?>
 </body>
 </html>
 
