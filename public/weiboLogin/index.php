@@ -5,7 +5,7 @@
     <title>微博测试</title>
 </head>
 <body>
-    <a href="wblogin.php"><img src="./libweibo/weibo_login.png" /></a>
+    <a href="wblogin.php"><img src="weibo_login.png" /></a>
 </body>
 </html>
 <?php
