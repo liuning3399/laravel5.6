@@ -1,3 +1,3 @@
 <?php
-echo 'test29';
+echo 'test30';
 	echo phpinfo();
